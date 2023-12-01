@@ -1,0 +1,46 @@
+
+
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px);
+  color: white;
+}
+
+.Weather-info {
+  background-color: #61dafb;
+  color: #fff;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 20px;
+  width: 300px;
+  font-size: medium;
+}
+
+
+.Weekday-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Weekday-card {
+  background-color: #61dafb;
+  color: #fff; 
+  margin: 2px; 
+  border-radius: 20px;
+  font-size: 12px; 
+}
+.Weather-icon img {
+  width: 100px; 
+  height: 100px;
+}
